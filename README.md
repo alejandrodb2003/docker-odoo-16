@@ -1,7 +1,7 @@
 # Docker Odoo 16.0 With PostgreSQL 13
 by Marlon Falcón
 
-![Alt text](https://github.com/falconsoft3d/images/blob/main/odoo-docker-post.png?raw=true "Marlon Odoo")
+![Alt text](https://github.com/alejandrodb2003/images/blob/main/odoo-docker-post.png?raw=true "Marlon Odoo")
 ```
 apt  install docker.io docker-compose -y
 git clone https://github.com/alejandrodb2003/docker-odoo-16.git
@@ -17,7 +17,7 @@ docker compose down
 ```
 
 ```
-git submodule add https://github.com/falconsoft3d/odoo_addons_3ros.git addons-customize/odoo_addons_3ros
+git submodule add https://github.com/alejandrodb2003/odoo_addons_3ros.git addons-customize/odoo_addons_3ros
 git commit -m "Added the submodule to the project."
 git push
 ```
